@@ -24,57 +24,57 @@ public class OrderDisplay {
 
         String[] order = new String[orderSize];
         for (Product item : orderItems) {
-            if (item.productType.equalsIgnoreCase("Accessory")) {
-                order[i] = (itemCount + ". SKU: " + item.productSku + "\n" +
-                        "\tItem Name: " + item.productName + "\n" +
-                        "\tType: " + item.productType + " | Size " + item.productSize +
+            if (item.itemType.equalsIgnoreCase("Accessory")) {
+                order[i] = (itemCount + ". SKU: " + item.sku + "\n" +
+                        "\tItem Name: " + item.name + "\n" +
+                        "\tType: " + item.itemType + " | Size " + item.productSize +
                         "\n");
                 itemCount++;
                 i++;
                 accessory++;
 
             }
-            if (item.productType.equalsIgnoreCase("Beauty")) {
-                order[i] = (itemCount + ". SKU: " + item.productSku + "\n" +
-                        "\tItem Name: " + item.productName + "\n" +
-                        "\tType: " + item.productType + " | Size " + item.productSize +
+            if (item.itemType.equalsIgnoreCase("Beauty")) {
+                order[i] = (itemCount + ". SKU: " + item.sku + "\n" +
+                        "\tItem Name: " + item.name + "\n" +
+                        "\tType: " + item.itemType + " | Size " + item.productSize +
                         "\n");
                 itemCount++;
                 i++;
                 beauty++;
 
             }
-            if (item.productType.equalsIgnoreCase("Clothes")) {
-                order[i] = (itemCount + ". SKU: " + item.productSku + "\n" +
-                        "\tItem Name: " + item.productName + "\n" +
-                        "\tType: " + item.productType + " | Size " + item.productSize +
+            if (item.itemType.equalsIgnoreCase("Clothes")) {
+                order[i] = (itemCount + ". SKU: " + item.sku + "\n" +
+                        "\tItem Name: " + item.name + "\n" +
+                        "\tType: " + item.itemType + " | Size " + item.productSize +
                         "\n");
                 itemCount++;
                 i++;
                 clothes++;
             }
-            if (item.productType.equalsIgnoreCase("Bags")) {
-                order[i] = (itemCount + ". SKU: " + item.productSku + "\n" +
-                        "\tItem Name: " + item.productName + "\n" +
-                        "\tType: " + item.productType + " | Size " + item.productSize +
+            if (item.itemType.equalsIgnoreCase("Bags")) {
+                order[i] = (itemCount + ". SKU: " + item.sku + "\n" +
+                        "\tItem Name: " + item.name + "\n" +
+                        "\tType: " + item.itemType + " | Size " + item.productSize +
                         "\n");
                 itemCount++;
                 i++;
                 bag++;
             }
-            if (item.productType.equalsIgnoreCase("Shoes")) {
-                order[i] = (itemCount + ". SKU: " + item.productSku + "\n" +
-                        "\tItem Name: " + item.productName + "\n" +
-                        "\tType: " + item.productType + " | Size " + item.productSize +
+            if (item.itemType.equalsIgnoreCase("Shoes")) {
+                order[i] = (itemCount + ". SKU: " + item.sku + "\n" +
+                        "\tItem Name: " + item.name + "\n" +
+                        "\tType: " + item.itemType + " | Size " + item.productSize +
                         "\n");
                 itemCount++;
                 i++;
                 shoes++;
             }
-            if (item.productType.equalsIgnoreCase("Housewares")) {
-                order[i] = (itemCount + ". SKU: " + item.productSku + "\n" +
-                        "\tItem Name: " + item.productName + "\n" +
-                        "\tType: " + item.productType + " | Size " + item.productSize +
+            if (item.itemType.equalsIgnoreCase("Housewares")) {
+                order[i] = (itemCount + ". SKU: " + item.sku + "\n" +
+                        "\tItem Name: " + item.name + "\n" +
+                        "\tType: " + item.itemType + " | Size " + item.productSize +
                         "\n");
                 itemCount++;
                 i++;
