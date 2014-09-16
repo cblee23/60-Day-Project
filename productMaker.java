@@ -30,37 +30,37 @@ import java.util.Random;
  p.productID = 1 + r.nextInt(6);
 
  if( p.productID == 1){
- p.setProductName(itemName[r.nextInt(3)]);
- p.setProductType("Accessory");
+ p.setName(itemName[r.nextInt(3)]);
+ p.setItemType("Accessory");
  p.setProductSize(1);
  }
  if( p.productID == 2) {
- p.setProductName(itemName[3 + r.nextInt(3)]);
- p.setProductType("Beauty");
+ p.setName(itemName[3 + r.nextInt(3)]);
+ p.setItemType("Beauty");
  p.setProductSize(2);
  }
  if( p.productID == 3) {
- p.setProductName(itemName[6 + r.nextInt(3)]);
- p.setProductType("Clothes");
+ p.setName(itemName[6 + r.nextInt(3)]);
+ p.setItemType("Clothes");
  p.setProductSize(2);
  }
  if( p.productID == 4){
- p.setProductName(itemName[9 + r.nextInt(3)]);
- p.setProductType("Bags");
+ p.setName(itemName[9 + r.nextInt(3)]);
+ p.setItemType("Bags");
  p.setProductSize(3);
  }
  if( p.productID == 5){
- p.setProductName(itemName[12 + r.nextInt(3)]);
- p.setProductType("Shoes");
+ p.setName(itemName[12 + r.nextInt(3)]);
+ p.setItemType("Shoes");
  p.setProductSize(3);
  }
  if( p.productID == 6) {
- p.setProductName(itemName[15 + r.nextInt(3)]);
- p.setProductType("Housewares");
+ p.setName(itemName[15 + r.nextInt(3)]);
+ p.setItemType("Housewares");
  p.setProductSize(5);
  }
 
- p.setProductSku(1000000 + r.nextInt(9999999));
+ p.setSku(1000000 + r.nextInt(9999999));
 
 
 
