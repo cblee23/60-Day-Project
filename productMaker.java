@@ -70,7 +70,7 @@ import java.util.Random;
  //Loop to generate an order of products, imports from generateProduct, may export this generated order to a json file.
  public static Product[] createOrder()
  {
- Order order = new Order();
+ OrderDisplay order = new OrderDisplay();
  Random r = new Random();
  int x;
  order.orderNumber++;
